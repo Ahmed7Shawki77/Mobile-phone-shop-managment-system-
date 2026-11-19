@@ -1,2 +1,11 @@
-# Mobile-phone-shop-managment-system-
-this is a mobile shop managment system project 
+# Mobile Phone Shop Management System
+
+Programming 2 - Project 15 (Java)
+
+## Team
+- Shawki (leader)
+- Rawan
+- Osama
+- Adel
+- Ibrahim
+- Gamal
