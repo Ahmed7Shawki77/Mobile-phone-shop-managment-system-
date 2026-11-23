@@ -13,6 +13,10 @@ public class Product {
         this.quantity = quantity;
     }
 
+    public boolean isAvailable() {
+        return quantity > 0;
+    }
+
     public String getId() {
         return id;
     }
