@@ -8,6 +8,9 @@ public class Staff extends User {
             String address, String username, String password,
             double salary, String department) {
         super(id, name, phone, email, address, username, password);
+        if (Double.isNaN(salary) || Double.isInfinite(salary) || salary < 0) {
+            throw new IllegalArgumentException("Salary must be a non-negative number");
+        }
         this.salary = salary;
         this.department = department;
     }
